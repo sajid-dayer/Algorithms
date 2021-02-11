@@ -11,7 +11,7 @@ def bubblesort(input_array):
             if input_array[i] > input_array[i + 1]:
                 swap(i, i + 1, input_array)
                 is_sorted = False
-            counter += 1
+        counter += 1
     return input_array
 
 
